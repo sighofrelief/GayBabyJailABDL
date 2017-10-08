@@ -9,7 +9,7 @@
 <!-- ################################################################# -->
 <!-- STEP 01) Type your name in the title tag below. You need to change the
    part after the hypen for each page after it is duplicated, but leave it as is for this first task-->
-    <title>Zachary Kessler - Home Page</title>
+    <title>Zachary Kessler - Interests</title>
 <!-- ################################################################# -->
 <!-- STEP 02) On line 17 and 18 are stylesheets that come with the skeleton boilerplate. Uncomment them so they will work.
         Remember that comments can be multiple lines, so remove the opening comment tag at the
@@ -18,9 +18,60 @@
 <link rel="stylesheet" href="css/skeleton.css">
 <!-- ################################################################# -->
 <!-- STEP 03) on line 21 you need to add a stylesheet link named custom.css  Don't forget to add the css directory -->
-<link rel="stylesheet" href="css/custom.css" >
 <!-- STEP 04) on line 23 you need to add a stylesheet link named nav.css  Don't forget to add the css directory -->
 <link rel="stylesheet" href="css/nav.css" >
+<style>
+html {
+  background: url(images/white-wood.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav a.active {
+  background-color: #white; /* this is the color of the clicked nav link */
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.head-intro {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 350%;
+  font-weight: 300;
+  font-family: 'Papyrus', fantasy;
+  color: black;
+}
+
+p {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: 'Papyrus', fantasy;
+  color: black;
+}
+
+li {
+  font-size: 200%;
+  font-weight: 300;
+  font-family: 'Papyrus', fantasy;
+  color: black;
+}
+
+img {
+    background-color: #444;
+    padding: 4px;
+}
+
+</style>
   </head>
 
   <body>
@@ -55,24 +106,34 @@
 
    <div class="row">
     <div class="twelve columns">
-      <h1 class="text-center">About</h1><!-- You will change this headline and the <p> section below for every page in your site -->
-        <p>This is my about page</p>
+      <h1 class="text-center">10 Pieces of Media That Have Influenced Me</h1><!-- You will change this headline and the <p> section below for every page in your site -->
+
+          <ol class="text-center">
+           <li>Halo: Combat Evolved (2001)</li>
+           <li>Cowboy Bepbop (1998)</li>
+          <li>Spirited Away (2003)</li>
+          <li>The End of Evangelion (1997)</li>
+          <li>The Handmaid's Tale (1985)</li>
+          <li>Ghost in The Shell (1995)</li>
+          <li>Run The Jewels 2 (2014)</li>
+          <li>Mm.. Food (2004)</li>
+          <li>Crystalize (2011)</li>
+          <li> Paprika (2007)
+         </ol>
     </div><!-- this closes the twelve columns div -->
   </div><!-- this closes the row div -->
 
    <footer class="text-center">
 <!-- ################################################################# -->
 <!-- STEP 12) put in your name in the copyright line below -->
-    <p>&#169; Copyright FirstName LastName, <b>2017</b></p>
+    <p>&#169; Copyright Zachary Kessler, <b>2017</b></p>
 
 
-   <!-- These links can be deleted. they are here just for your your convenience -->
-    <a href="https://console.cloudapps.unc.edu/console/">console shortcut</a> |
-    <a href="https://sc.unc.edu">Source Control Shortcut</a> |
-    <a href="https://validator.w3.org">HTML Validator</a> |
-    <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a> |
-
-
+    <p>
+      <script>
+        document.write("Page last updated on " + document.lastModified);
+     </script>
+    </p>
   </footer><!-- this closes the footer -->
   </div><!-- this closes the container div It must be on every page -->
 
