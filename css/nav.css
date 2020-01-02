@@ -7,8 +7,8 @@
   margin: 0;
 }
 .nav li {
-  font-family:'Papyrus', fantasy; /* I changed this to my choice of google font */
-  font-size: 1.2em;
+  font-family:Impact, Charcoal, sans-serif; /* I changed this to my choice of google font */
+  font-size: 1em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
@@ -67,7 +67,7 @@
   border-bottom: none;
   height: 40px;
   line-height: 40px;
-  font-family: 'Papyrus', fantasy;
+  font-family: Impact, Charcoal, sans-serif;
   font-size: 20px;
   padding-top: 20px;
 }
